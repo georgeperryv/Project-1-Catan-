@@ -1,0 +1,239 @@
+body {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    /* margin: 10%; */
+    padding-top:3%;
+    padding-left: 20%
+}
+
+
+
+.first-row-buttons{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+.first-row-buttons > button {
+    height: 40px;
+    width: 25px;
+    color: green;
+    justify-content: space-between;
+    margin: 0px 80px 0px 80px;
+}
+
+.second-row-buttons{
+    height: 50px;
+    width: 530px;
+    position:absolute;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    margin-top: -20px;
+    padding-left: 150px;
+}
+
+.second-row-buttons > button {
+    height: 20px;
+    width: 60px;
+    color: green;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+
+.third-row-buttons{
+    height: 50px;
+    width: 200px;
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.third-row-buttons > button {
+    height: 40px;
+    width: 25px;
+    color: green;
+    justify-content: space-between;
+    margin: 0px 80px 0px 80px;
+}
+
+
+
+#top-row-middle{
+    height: 120px;
+    width: 30px;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+
+/* .grid {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    display: grid;
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+   
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+} */
+
+  
+  .first-row {
+    margin-left: 188px;
+    display: flex;
+    gap: 10px;
+    font-size: 100px; /* disable white space between inline block element */
+  }
+  
+  
+
+  .first-row div{
+
+    float: left;
+    border-right: 160px solid #6C6;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    
+    float: left;
+    width: 60px;
+    height: 200px;
+    background-color: #6C6;
+
+    float: left;
+    border-left: 60px solid #6C6;
+    border-top: 120px solid transparent;
+    border-bottom: 120px solid transparent;
+
+width: var(--s);
+margin: var(--m);
+height: calc(var(--s) * 1.1547);
+/* display: inline-block; */
+/* font-size: initial; we reset the font-size if we want to add some content */
+clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+
+
+        }
+
+.fourth-row-buttons{
+    position: absolute;
+    height: 160px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top: -80px;
+    margin-left: 80px;
+}
+
+.fourth-row-buttons > button {
+    height: 40px;
+    width: 25px;
+    color: green;
+    justify-content: space-between;
+    margin: 0px 80px 0px 80px;
+}
+        
+
+
+.second-row {
+    margin-left: 60px;
+    display: flex;
+    gap: 50px;
+    font-size: 100px; /* disable white space between inline block element */
+    }
+
+.second-row div{
+
+    float: left;
+        border-right: 160px solid #6C6;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        
+        float: left;
+        width: 60px;
+        height: 200px;
+        background-color: #6C6;
+
+        float: left;
+        border-left: 60px solid #6C6;
+        border-top: 120px solid transparent;
+        border-bottom: 120px solid transparent;
+
+    width: var(--s);
+    margin: var(--m);
+    height: calc(var(--s) * 1.1547);
+    /* display: inline-block; */
+    /* font-size: initial; we reset the font-size if we want to add some content */
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+
+    }
+
+.middle-bottom{
+    height: 20px;
+}
+
+
+.third-row {
+    margin-left: 188px;
+    display: flex;
+    gap: 50px;
+    font-size: 100px; /* disable white space between inline block element */
+}
+
+.third-row div{
+
+    float: left;
+        border-right: 160px solid #6C6;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid transparent;
+        
+        float: left;
+        width: 60px;
+        height: 200px;
+        background-color: #6C6;
+
+        float: left;
+        border-left: 60px solid #6C6;
+        border-top: 120px solid transparent;
+        border-bottom: 120px solid transparent;
+
+    width: var(--s);
+    margin: var(--m);
+    height: calc(var(--s) * 1.1547);
+    /* display: inline-block; */
+    /* font-size: initial; we reset the font-size if we want to add some content */
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+
+    }
+    
+.bottom{
+    height: 20px;
+}
+
+
+
+/* 
+
+
+
+
+        width: var(--s);
+        margin: var(--m);
+        height: calc(var(--s) * 1.1547);
+        display: inline-block;
+        font-size: initial; 
+        clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%); */
